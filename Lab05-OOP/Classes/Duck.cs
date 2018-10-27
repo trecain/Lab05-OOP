@@ -18,7 +18,7 @@ namespace Lab05_OOP.Classes
             return true;
         }
 
-        public bool SunBathes { get; set } = true; 
+        public bool SunBathes { get; set; } = true; 
 
         public string Bathes()
         {

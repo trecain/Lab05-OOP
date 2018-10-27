@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Lab05_OOP.Interfaces
+using Lab05_OOP.Interfaces;
 
 namespace Lab05_OOP.Classes
 {
@@ -12,17 +12,18 @@ namespace Lab05_OOP.Classes
         {
             TailColor = tail;
         }
-    }
 
-    public override sealed string RequestFood()
-    {
-        string res = "*stomach growling* I'm hungry.";
-        return res;
-    }
+        public override sealed string RequestFood()
+        {
+            string res = "*stomach growling* I'm hungry.";
+            return res;
+        }
 
-    public override string Sleep()
-    {
-        Console.WriteLine("Knocked out");
-        return "Knocked out";
+        public override string Sleep()
+        {
+            Console.WriteLine("Knocked out");
+            return "Knocked out";
+        }
     }
+    
 }

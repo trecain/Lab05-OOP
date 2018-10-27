@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05_OOP.Classes
 {
-    class WildAnimals
+    public abstract class WildAnimals : Animal
     {
         public int RabiesLevel { get; set; }
 
