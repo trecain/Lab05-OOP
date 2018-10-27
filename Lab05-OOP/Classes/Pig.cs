@@ -5,7 +5,7 @@ using Lab05_OOP.Interfaces;
 
 namespace Lab05_OOP.Classes
 {
-    public abstract class Pig : Lizard, ISun, IEats
+    public class Pig : Lizard, ISun, IEats
     {
         public Pig(string name, int legs, string speech, string color, string tail) : base(name, legs, speech, color, tail)
         {
@@ -28,7 +28,7 @@ namespace Lab05_OOP.Classes
 
         public bool Carnivore()
         {
-            return EatingFlys();
+            return true;
         }
 
         public override string Sleep()

@@ -5,7 +5,7 @@ using Lab05_OOP.Interfaces;
 
 namespace Lab05_OOP.Classes
 {
-    class Duck : Raccoon, ISun
+    public class Duck : Raccoon, ISun
     {
         public Duck (string name, int legs, string speech, int rabiesLevel, bool eatsTrash ) : base(name, legs, speech, rabiesLevel, eatsTrash)
         {

@@ -6,7 +6,7 @@ namespace Lab05_OOP.Classes
 {
     public class Turkey : Lizard
     {
-        public Turkey(string name, int legs, string speech, string color, string tail) : base(name, legs, speech, tail)
+        public Turkey(string name, int legs, string speech, string color, string tail) : base(name, legs, speech, color, tail)
         {
 
         }
@@ -21,7 +21,7 @@ namespace Lab05_OOP.Classes
         {
             Console.WriteLine("No way, I don't eat that");
             Sleep();
-            return true;
+            return false;
         }
     }
 }
