@@ -6,6 +6,9 @@ using Lab05_OOP.Interfaces;
 
 namespace Lab05_OOP.Interfaces
 {
+    /// <summary>
+    /// interace for carnivore method
+    /// </summary>
     interface IEats
     {
         bool Carnivore();
