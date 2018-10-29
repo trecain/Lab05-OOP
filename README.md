@@ -24,4 +24,4 @@ properties and methods from certain abstract classes.
 3 - dotnet test 
 
 ```
-![OOP Diagram]()
+![OOP Diagram](https://github.com/trecain/Lab05-OOP/blob/master/assets/oop.jpg)
