@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab05-OOP", "Lab05-OOP\Lab05-OOP.csproj", "{85AF0911-6A38-41CE-B875-8A5675AEDFE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab05-OOPTest", "Lab05-OOPTest\Lab05-OOPTest.csproj", "{8DB01066-03FB-4A14-938F-CD6F29A0CC05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab05-OOPTest", "Lab05-OOPTest\Lab05-OOPTest.csproj", "{8DB01066-03FB-4A14-938F-CD6F29A0CC05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{DB614C99-5CE4-4071-8C8B-7B7F86F62C78}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\oop.jpg = ..\..\..\oop.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

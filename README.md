@@ -7,6 +7,7 @@ I used a base Animal class for most of the inheritance, along with two interface
 properties and methods from certain abstract classes.
 
 ## Principles Covered
+
 ```
 5 - Interfaces
 1 - Inheritence
